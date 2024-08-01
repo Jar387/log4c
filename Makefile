@@ -34,7 +34,7 @@ liblog4c.a: Makefile $(OBJS)
 	$(AR) $(ARFLAGS) $@ $(OBJS)
 
 %.o: %.c
-	$(CC) $(CCFLAGS) -c $^ -o $@
+	$(CC) $(CCFLAGS) -c $^ -o $@ -O3
 
 .PHONY: clean
 clean:
