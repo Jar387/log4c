@@ -1,5 +1,5 @@
 CC = gcc
-CCFLAGS = -std=gnu99 -finline-functions -O
+CCFLAGS = -std=gnu99 -finline-functions -O -fPIC
 AR = ar
 ARFLAGS = rcs
 OBJS = logger.o
